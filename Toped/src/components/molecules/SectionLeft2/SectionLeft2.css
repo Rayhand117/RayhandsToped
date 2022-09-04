@@ -1,0 +1,12 @@
+.SectionLeft2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    padding-bottom: 10px;
+    padding-bottom: 41px;
+}
+.PlusLeft2 {
+    display: flex;
+}

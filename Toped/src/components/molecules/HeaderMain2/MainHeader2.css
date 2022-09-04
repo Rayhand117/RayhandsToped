@@ -1,0 +1,31 @@
+.MainHeader {
+    overflow: hidden;
+    display: flex;
+    width: 96%;
+    left: 32px;
+    height: 56px;
+    top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    left: 0px;
+    right: 0px;
+    flex-wrap: nowrap;
+    padding-left: 36px;
+    /* padding-right: 4px; */
+}
+.Search {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.notifIcon {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0 4px 0 20px;
+    width: 144px;
+    flex-shrink: 0;
+}

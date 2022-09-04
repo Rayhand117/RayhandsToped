@@ -1,0 +1,12 @@
+a {
+    color: hsla(216, 9%, 21%, 0.68);
+    font-size: 12px;
+    /* font-family: 'Open Sauce One'; */
+    text-decoration: none;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+a:hover {
+    color: rgb(3,172,14);
+}

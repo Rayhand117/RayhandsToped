@@ -1,0 +1,54 @@
+.sectionRightMol {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+.TopBar {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid rgb(228,230,233);
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    color: rgba(49,53,59,0.44);
+}
+.padTop {
+    padding: 20px 25px;
+    user-select: none;
+}
+.padTop:hover {
+    color: rgba(49, 53, 59, 0.96);
+    cursor: pointer;
+    transition: 1s;
+}
+#padKlik {
+    color: #03ac0e;
+    border-bottom: 2px solid #03ac0e;
+    padding: 20px 25px 0 25px;
+}
+/* .padTop:active,
+.padTop:focus {
+    color: #03ac0e;
+    border-bottom: 2px solid #03ac0e;
+} */
+
+.Biodatah {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 16px;
+    border: 1px solid rgb(228,230,233);
+    border-radius: 0 0 8px 8px;
+}
+.BioKiri {
+    display: flex;
+    flex-direction: column;
+    /* background-color: violet; */
+}
+.BioKanan {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    padding: 16px;
+}

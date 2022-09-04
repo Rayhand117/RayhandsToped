@@ -1,0 +1,109 @@
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'); */
+.font {
+    color: hsla(216, 9%, 21%, 0.68);
+    font-weight: 400;
+}
+svg {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.toko,
+.profil {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.tokoFlex {
+    margin-right: 45px;
+}
+.tokoFlex,
+.profileFlex {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+svg:hover,
+.tokoFlex:hover,
+.profileFlex:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 2px;
+}
+.tokoFont,
+.profileFont {
+    padding: 8px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tokoFont:hover,
+.profileFont:hover {
+    color: rgb(3,172,14);
+}
+.fontKategori {
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+    transition: color 280ms ease ;
+    height: 30px;
+    max-width: 58px;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 8px 0 10px;
+    cursor: pointer;
+}
+.fontKategori:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 4px;
+    color: rgb(3,172,14);
+}
+.SearchBar {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: rgb(255,255,255);
+    border-right: 0;
+    border-top: 0.1px solid hsl(210, 8%, 91%);
+    border-bottom: 0.1px solid hsl(210, 8%, 91%);
+    border-left: 0.1px solid hsl(210, 8%, 91%);
+    border-radius: 8px 0 0 8px;
+}
+.SearchBar::placeholder {
+    color: hsla(216, 9%, 21%, 0.46);
+    font-weight: 400;
+    font-size: 12px;
+}
+.searchIconSize {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 243, 243);
+    border-right: 0.1px solid hsl(210, 8%, 91%);
+    border-top: 0.1px solid hsl(210, 8%, 91%);
+    border-bottom: 0.1px solid hsl(210, 8%, 91%);
+    border-left: 0px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+.ukuranSearch {
+    width: 18px;
+    height: 18px;
+}
+.garis {
+    width: 1.2px;
+    min-width: 1.2px;
+    height: 24px;
+    background-color: #e0e0e0;
+    margin: 0 16px 0 16px;
+}

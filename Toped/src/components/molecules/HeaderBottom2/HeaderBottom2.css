@@ -1,0 +1,14 @@
+.HeaderBottom {
+    /* margin-left: 257px; */
+    padding-left: 257px;
+    margin-top: -2px;
+    display: flex;
+    width: 45%;
+}
+.HeaderBottom a{
+    padding-right: 2%;
+    padding-bottom: 6px;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+}
